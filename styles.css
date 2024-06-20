@@ -1,0 +1,194 @@
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.short
+{
+    width: 300px;
+    border-style: solid;
+    border-color: blue;
+}
+.password-wrapper {
+    position: relative;
+  }
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  table
+  {
+    display: block;
+    border: 10px solid chartreuse;
+    
+  }
+  .gowtham
+  {
+    background-color: brown;
+    text-align: center;
+   height: 100px;
+   width:auto;
+   font-size: 50px;
+   border-style: solid;
+   border-width: 2px;
+  }
+ 
+#h
+{
+   
+   height: 50px;
+   width: 300px;
+   color: rgb(42, 130, 165);
+   border-style: dotted;
+   border-width: 3px;
+   border-color: gold;
+   
+  
+}
+/* Tooltip container */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip button or link */
+.tooltip-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:link{
+  color: aqua;
+}
+button:hover{
+  color: blue;
+  font-size: 5em;
+}
+button:active
+{
+  color: maroon;
+  background-color: papayawhip;
+}
+/* Tooltip text */
+.tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Adjust as needed */
+  left: 50%;
+  margin-left: -60px; /* Half the width of the tooltip */
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+ .hello
+ {
+    border: 5px solid #599b5d;
+ }
+.chart-container1 {
+  width: 100%;
+  margin: 20px 0;
+  
+}
+.bar1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  border-radius: 5px;
+} 
+.bar2 {
+  background-color: indigo;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: right;
+  border-radius: 5px;
+} 
+.bar3 {
+  background-color: #212aa7;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: right;
+  border-radius: 5px;
+} 
+.bar4 {
+  background-color: lawngreen;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: right;
+  border-radius: 5px;
+} 
+.bar5 {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: right;
+  border-radius: 5px;
+} 
+
+
+
+
+.ver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.chart-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 80%;
+  height: 60vh;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bar {
+  width: 15%;
+  margin: 0 10px;
+  background-color: #4CAF50;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.bar:hover {
+  background-color: #45a049;
+}
