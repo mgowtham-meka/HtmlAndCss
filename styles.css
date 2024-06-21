@@ -65,13 +65,15 @@ button:link{
 }
 button:hover{
   color: blue;
-  font-size: 5em;
+  font-size: 1em;
 }
 button:active
 {
   color: maroon;
   background-color: papayawhip;
 }
+
+
 /* Tooltip text */
 .tooltip-text {
   visibility: hidden;
@@ -157,7 +159,7 @@ button:active
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height:100vh;
   background-color: #f0f0f0;
 }
 
@@ -191,4 +193,73 @@ button:active
 
 .bar:hover {
   background-color: #45a049;
+}
+.qq
+{
+     text-align: center;
+}
+.qqq
+{
+    text-align: center;
+}
+
+.donut-chart-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: conic-gradient(
+      #F0C2DD 0% 30%,
+      #7FA37F 30% 60%,
+      #9191b3cb 60% 90%,
+      #BB9D77 90% 100%);
+  }
+.donut-chart-container::before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #F7F1F1;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.body1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(78, 56, 156);
+  position: relative;
+  overflow: hidden;
+}
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 1s infinite;
+  animation-play-state: paused;
+}
+/* Animation keyframes for the bounce effect */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-150px);
+  }
+}
+.box:hover .ball {
+  animation-play-state: running;
 }
